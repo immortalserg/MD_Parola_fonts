@@ -211,8 +211,8 @@ const uint8_t PROGMEM _5bite_rus[] =
 5, 20, 20, 247, 0, 247,	// 205 - Center + double
 5, 20, 20, 20, 23, 20,	// 206 - Bot T double H
 5, 16, 16, 31, 16, 31,	// 207 - Bot Right double V
-0,	// 208 - for UTF-8
-0,	// 209 - for UTF-8
+0,	// 208 - for rus fonts UTF-8
+0,	// 209 - for rus fonts UTF-8
 5, 0, 0, 31, 16, 31,	// 210 - Bot Left double V
 5, 0, 0, 0, 31, 20,	// 211 - Bot Right double H
 5, 0, 0, 0, 252, 20,	// 212 - Top Right double H

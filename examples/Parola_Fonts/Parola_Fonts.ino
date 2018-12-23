@@ -15,7 +15,7 @@ void setup()
 {
   P.begin();
   P.setFont(_5bite_rus);
-  P.displayText("СЪЕШЬ ЕЩЕ ЭТИХ МАЛЕНЬКИХ БУЛОЧЕК И ВЫПЕЙ ЧАЮ съешь еще этих маленьких булочек и выпей чаю", PA_CENTER , 100, 0, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
+  P.displayText("АБВ", PA_CENTER , 100, 0, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
 
 }
 void loop()
