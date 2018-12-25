@@ -1,7 +1,7 @@
 #include <MD_Parola.h>
 #include <MD_MAX72xx.h>
 #include <SPI.h>
-#include "5bite_rus.h" // подключаем внешний шрифт
+#include "5bite_rus.h"
 #include "6bite_rus.h"
 #define HARDWARE_TYPE MD_MAX72XX::ICSTATION_HW
 #define MAX_DEVICES 4 // количество модулей
@@ -12,7 +12,7 @@ void setup()
 {
   P.begin();
   P.setFont(_6bite_rus);
-  P.displayText("АБВГД", PA_CENTER , 100, 0, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
+  P.displayText("СЪЕШЬ ЕЩЕ ЭТИХ МАЛЕНЬКИХ БУЛОЧЕК И ВЫПЕЙ ЧАЮ, съешь еще этих маленьких булочек и выпей чаю", PA_CENTER , 100, 0, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
 }
 void loop()
 {
